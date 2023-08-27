@@ -43,6 +43,19 @@ ead:
     exchange:
       userEvent: ead.userevent
 
+authuser:
+  refreshscope:
+    name: Vicent Filho
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
+
+
 eureka:
   client:
     serviceUrl:
